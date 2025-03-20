@@ -58,21 +58,21 @@ function App() {
               {
                 title: "Cálculos",
                 description: "Calcula automáticamente para instalaciones de baja tensión",
-                videoUrl: "https://www.youtube.com/watch?v=ItGcHOoosbQ"
+                videoUrl: "https://www.youtube.com/embed/ItGcHOoosbQ"
               },
               {
                 title: "Exportaciones",
                 description: "Genera documentación en PDF y esquemas en CAD",
-                videoUrl: "https://www.youtube.com/watch?v=ELjehrBpviw"
-              },      
+                videoUrl: "https://www.youtube.com/embed/ELjehrBpviw"
+              },
               {
                 title: "Normativa",
                 description: "Cumplimenta los proyectos según normativa REBT",
-                videoUrl: "https://www.youtube.com/watch?v=8Zd_nkWBzr0"
+                videoUrl: "https://www.youtube.com/embed/8Zd_nkWBzr0"
               }
             ].map((video, index) => (
-              <Card 
-                key={index} 
+              <Card
+                key={index}
                 className="overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-xl dark:hover:shadow-blue-500/20"
               >
                 <CardHeader>
@@ -126,8 +126,8 @@ function App() {
                 description: "Diseña instalaciones complejas de forma escalable"
               }
             ].map((feature, index) => (
-              <Card 
-                key={index} 
+              <Card
+                key={index}
                 className="text-center transform transition-all duration-300 hover:scale-105 hover:shadow-xl dark:hover:shadow-blue-500/20"
               >
                 <CardContent className="pt-6">
@@ -256,7 +256,7 @@ function App() {
                 <CardTitle className="text-2xl text-center">Otros (proveedores)</CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
-                <div className="text-center mb-6">  
+                <div className="text-center mb-6">
                   <span className="text-2xl font-bold">Variable</span>
                 </div>
                 <div className="space-y-2">
